@@ -1,9 +1,25 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineApi } from "react-icons/ai";
-import { IoMdPhonePortrait } from "react-icons/io";
+import { FaDocker, FaPython, FaReact, FaServer } from "react-icons/fa";
+import { AiFillHtml5, AiOutlineApi } from "react-icons/ai";
+import {
+  SiFirebase,
+  SiFlask,
+  SiFramer,
+  SiGooglecloud,
+  SiKubernetes,
+  SiMongodb,
+  SiNextDotJs,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+import {
+  IoLogoCss3,
+  IoLogoJavascript,
+  IoLogoNodejs,
+  IoMdPhonePortrait,
+} from "react-icons/io";
 import { GiServerRack } from "react-icons/gi";
-import { Iservice } from "./type";
+import { Iservice, Iskill } from "./type";
 
 export const service: Iservice[] = [
   {
@@ -34,5 +50,91 @@ export const service: Iservice[] = [
     Icon: IoMdPhonePortrait,
     title: "Mobile App Dev",
     about: "Coming soon still keeping up with the pace of <b>React Native</b> ",
+  },
+];
+
+export const language: Iskill[] = [
+  {
+    name: "Javascript",
+    level: "70%",
+    Icon: IoLogoJavascript,
+  },
+  {
+    name: "HTML",
+    level: "80%",
+    Icon: AiFillHtml5,
+  },
+  {
+    name: "Css",
+    level: "80%",
+    Icon: IoLogoCss3,
+  },
+  {
+    name: "React",
+    level: "80%",
+    Icon: FaReact,
+  },
+  {
+    name: "TypeScript",
+    level: "50%",
+    Icon: SiTypescript,
+  },
+  {
+    name: "Next js",
+    level: "60%",
+    Icon: SiNextDotJs,
+  },
+  {
+    name: "Python",
+    level: "60%",
+    Icon: FaPython,
+  },
+  {
+    name: "Node",
+    level: "80%",
+    Icon: IoLogoNodejs,
+  },
+  {
+    name: "Flask",
+    level: "40%",
+    Icon: SiFlask,
+  },
+  {
+    name: "Tailwind",
+    level: "50%",
+    Icon: SiTailwindcss,
+  },
+];
+
+export const tools: Iskill[] = [
+  {
+    name: "Firebase",
+    level: "70%",
+    Icon: SiFirebase,
+  },
+  {
+    name: "Framer",
+    level: "60%",
+    Icon: SiFramer,
+  },
+  {
+    name: "MongoDB",
+    level: "50%",
+    Icon: SiMongodb,
+  },
+  {
+    name: "Docker",
+    level: "30%",
+    Icon: FaDocker,
+  },
+  {
+    name: "Kubernetes",
+    level: "40%",
+    Icon: SiKubernetes,
+  },
+  {
+    name: "GCP",
+    level: "30%",
+    Icon: SiGooglecloud,
   },
 ];
