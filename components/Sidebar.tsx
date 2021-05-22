@@ -15,16 +15,16 @@ const Sidebar = () => {
         alt="Suleiman Msumari"
         className="h-40 mx-auto rounded-full w-38"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white">
+      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white ">
         <span className="text-red-600">Suleiman </span>Msumari
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-400 rounded-full dark:text-white">
+      <p className="px-2 py-1 my-3 bg-gray-400 rounded-full dark:text-white dark:bg-gray-800">
         Web Developer
       </p>
       <a
         href=""
         download="name"
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-400 rounded-full dark:text-white"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-400 rounded-full dark:text-white dark:bg-gray-800"
       >
         <GiTie className="w-6 h-6" />
         Download resume

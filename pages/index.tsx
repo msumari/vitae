@@ -13,13 +13,13 @@ const index = () => {
         planning to requirements gathering through to writing code and support
       </h5>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400"
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-gray-800"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h6 className="my-3 text-xl font-bold tracking-wider">What I Offer</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {service.map((serv) => (
-            <div className="bg-gray-200 rounded-lg lg:col-span-1">
+            <div className="bg-gray-200 rounded-lg lg:col-span-1 dark:bg-black">
               <ServiceCard service={serv} />
             </div>
           ))}
