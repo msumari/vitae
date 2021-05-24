@@ -11,3 +11,21 @@ export interface Iskill {
   level: string;
   Icon: IconType;
 }
+
+export interface Iproject {
+  name: string;
+  description: string;
+  image_path: string;
+  deploy_url: string;
+  github_url: string;
+  category: Category[];
+  key_tech: string[];
+}
+
+export type Category =
+  | "React"
+  | "Node"
+  | "Flask"
+  | "Firebase"
+  | "MongoDB"
+  | "API";

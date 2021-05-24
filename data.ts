@@ -19,7 +19,7 @@ import {
   IoMdPhonePortrait,
 } from "react-icons/io";
 import { GiServerRack } from "react-icons/gi";
-import { Iservice, Iskill } from "./type";
+import { Iproject, Iservice, Iskill } from "./type";
 
 export const service: Iservice[] = [
   {
@@ -136,5 +136,68 @@ export const tools: Iskill[] = [
     name: "GCP",
     level: "30%",
     Icon: SiGooglecloud,
+  },
+];
+
+export const project: Iproject[] = [
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["React", "Firebase"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
+  },
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["React", "Node"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
+  },
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["React", "MongoDB"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
+  },
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["Flask", "MongoDB"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
+  },
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["React", "Firebase"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
+  },
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["React", "Firebase"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
   },
 ];
