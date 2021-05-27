@@ -3,6 +3,10 @@ import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import { Iproject } from "../type";
 
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { fadeInUp, stagger } from "../animations";
+
 const ProjectCard: FunctionComponent<{
   project: Iproject;
 }> = ({
@@ -19,18 +23,37 @@ const ProjectCard: FunctionComponent<{
   const [show, setShow] = useState(false);
   return (
     <div>
-      <img
+      <Image
         src={image_path}
         alt={name}
         className="cursor-pointer"
         onClick={() => setShow(true)}
+        width="300"
+        height="150"
+        layout="responsive"
       />
+      {/* <img
+        src={image_path}
+        alt={name}
+        className="cursor-pointer"
+        onClick={() => setShow(true)}
+      /> */}
       <p className="my-2 text-center">{name}</p>
       {show && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto text-black bg-gray-400 rounded-md shadow-custom-light dark:shadow-custom-dark md:grid-cols-2 gap-x-12 dark:text-white dark:bg-gray-900">
+        <motion.div
+          variants={stagger}
+          initial="initial"
+          animate="animate"
+          className="absolute top-0 left-0 z-10 grid w-full h-auto text-black bg-gray-400 rounded-md shadow-custom-light dark:shadow-custom-dark md:grid-cols-2 gap-x-12 dark:text-white dark:bg-gray-900"
+        >
           <div className="p-2 ">
-            <img src={image_path} alt={name} />
-            <div className="flex justify-center my-4 space-x-3">
+            <motion.div variants={fadeInUp}>
+              <img src={image_path} alt={name} />
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="flex justify-center my-4 space-x-3"
+            >
               <a
                 href={github_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-600 rounded"
@@ -45,14 +68,14 @@ const ProjectCard: FunctionComponent<{
                 <AiFillProject />
                 <span>Project</span>
               </a>
-            </div>
+            </motion.div>
           </div>
-          <div>
+          <motion.div variants={fadeInUp}>
             <h2 className="mb-4 text-xl font-bold md:text-2xl">{name}</h2>
             <h3 className="px-2 mb-3 font-medium text-justify">
               {description}
             </h3>
-            <div className="flex flex-wrap p-2 mt-5 space-x-3 text-sm font-medium tracking-wider">
+            <motion.div className="flex flex-wrap p-2 mt-5 space-x-3 text-sm font-medium tracking-wider">
               {key_tech.map((tech) => (
                 <span
                   key={tech}
@@ -61,8 +84,8 @@ const ProjectCard: FunctionComponent<{
                   {tech}
                 </span>
               ))}
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
           <button
             onClick={() => {
@@ -72,7 +95,7 @@ const ProjectCard: FunctionComponent<{
           >
             <IoMdClose size={30} />
           </button>
-        </div>
+        </motion.div>
       )}
     </div>
   );
