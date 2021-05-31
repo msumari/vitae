@@ -22,7 +22,7 @@ const Sidebar = () => {
         Web Developer
       </p>
       <a
-        href=""
+        href="https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/Suleiman-%20Resume.pdf?alt=media&token=49244bae-e6a1-4a08-9736-a2fa1422f7b3"
         download="name"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-400 rounded-full dark:text-white dark:bg-gray-800"
       >
@@ -30,10 +30,10 @@ const Sidebar = () => {
         Download resume
       </a>
       <div className="flex justify-around w-9/12 mx-auto my-5 md:w-full">
-        <a href="">
+        <a href="https://github.com/msumari">
           <AiFillGithub className="w-8 h-8 text-black cursor-pointer dark:text-white" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/suleiman-msumari-75170b181/">
           <AiFillLinkedin className="w-8 h-8 text-blue-800 cursor-pointer" />
         </a>
         <a href="">
