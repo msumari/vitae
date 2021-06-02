@@ -10,6 +10,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
             rel="stylesheet"
           />
+          <title>Suleiman Msumari|Developer</title>
         </Head>
         <body className="bg-gradient-to-r from-yellow-600 to-red-700 dark:from-gray-800 dark:to-gray-900 dark:text-white">
           <Main />
