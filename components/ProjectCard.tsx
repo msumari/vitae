@@ -32,12 +32,7 @@ const ProjectCard: FunctionComponent<{
         height="150"
         layout="responsive"
       />
-      {/* <img
-        src={image_path}
-        alt={name}
-        className="cursor-pointer"
-        onClick={() => setShow(true)}
-      /> */}
+
       <p className="my-2 text-center">{name}</p>
       {show && (
         <motion.div

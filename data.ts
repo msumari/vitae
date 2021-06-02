@@ -180,24 +180,4 @@ export const project: Iproject[] = [
     key_tech: ["React"],
     image_path: "/image/web.JPG",
   },
-  {
-    name: "E-pharmacy",
-    description:
-      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
-    category: ["React", "Firebase"],
-    deploy_url: "https://e-phamarcy.netlify.app/",
-    github_url: "https://github.com/msumari/E-commerce",
-    key_tech: ["React", "Firebase", "Context API"],
-    image_path: "/image/e-commerce.JPG",
-  },
-  {
-    name: "E-pharmacy",
-    description:
-      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
-    category: ["React", "Firebase"],
-    deploy_url: "https://e-phamarcy.netlify.app/",
-    github_url: "https://github.com/msumari/E-commerce",
-    key_tech: ["React", "Firebase", "Context API"],
-    image_path: "/image/e-commerce.JPG",
-  },
 ];
