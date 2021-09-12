@@ -101,7 +101,7 @@ export const language: Iskill[] = [
   },
   {
     name: "Tailwind",
-    level: "50%",
+    level: "80%",
     Icon: SiTailwindcss,
   },
 ];
@@ -169,10 +169,10 @@ export const project: Iproject[] = [
     name: "Toio",
     description:
       "This is a professional business website that bring the online presence of tanzania open innnovation organization.",
-    category: ["React", "Tailwind"],
+    category: ["React"],
     deploy_url: "https://tanga.netlify.app/",
     github_url: "https://github.com/msumari",
-    key_tech: ["React", "Firebase"],
+    key_tech: ["React", "Firebase","Tailwind"],
     image_path: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/toio.png?alt=media&token=bb70ec1b-e80e-4847-b92a-e6858290d05c",
   },
   {
