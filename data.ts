@@ -86,17 +86,17 @@ export const language: Iskill[] = [
   },
   {
     name: "Python",
-    level: "60%",
+    level: "70%",
     Icon: FaPython,
   },
   {
     name: "Node",
-    level: "80%",
+    level: "60%",
     Icon: IoLogoNodejs,
   },
   {
     name: "Flask",
-    level: "40%",
+    level: "30%",
     Icon: SiFlask,
   },
   {
@@ -113,28 +113,23 @@ export const tools: Iskill[] = [
     Icon: SiFirebase,
   },
   {
-    name: "Framer",
-    level: "60%",
-    Icon: SiFramer,
-  },
-  {
     name: "MongoDB",
     level: "50%",
     Icon: SiMongodb,
   },
   {
     name: "Docker",
-    level: "30%",
+    level: "20%",
     Icon: FaDocker,
   },
   {
     name: "Kubernetes",
-    level: "40%",
+    level: "10%",
     Icon: SiKubernetes,
   },
   {
     name: "GCP",
-    level: "30%",
+    level: "10%",
     Icon: SiGooglecloud,
   },
 ];
@@ -169,6 +164,16 @@ export const project: Iproject[] = [
     github_url: "https://github.com/msumari",
     key_tech: ["React", "Firebase", "SMS_API"],
     image_path: "/image/royal.JPG",
+  },
+   {
+    name: "Toio",
+    description:
+      "This is a professional business website that bring the online presence of tanzania open innnovation organization.",
+    category: ["React", "Tailwind"],
+    deploy_url: "https://tanga.netlify.app/",
+    github_url: "https://github.com/msumari",
+    key_tech: ["React", "Firebase"],
+    image_path: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/toio.png?alt=media&token=bb70ec1b-e80e-4847-b92a-e6858290d05c",
   },
   {
     name: "Personal Portifolio",
