@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
@@ -36,8 +36,8 @@ const Sidebar = () => {
         <a href="https://www.linkedin.com/in/suleiman-msumari-75170b181/">
           <AiFillLinkedin className="w-8 h-8 text-blue-800 cursor-pointer" />
         </a>
-        <a href="https://www.facebook.com/swar.ozzy/">
-          <AiFillFacebook className="w-8 h-8 text-blue-500 cursor-pointer" />
+        <a href="https://twitter.com/KherySuleiman">
+          <AiFillTwitterCircle className="w-8 h-8 text-blue-500 cursor-pointer" />
         </a>
       </div>
       <div className="py-4 my-5 bg-gray-00 sytle={{marginLeft: '-1rem', marginRigth:'-1rem'}}">
