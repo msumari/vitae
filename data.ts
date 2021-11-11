@@ -175,7 +175,7 @@ export const project: Iproject[] = [
     description:
       "This is a professional business website that bring the online presence of tanzania open innnovation organization.",
     category: ["React"],
-    deploy_url: "https://tanga.netlify.app/",
+    deploy_url: "https://toio.or.tz/",
     github_url: "https://github.com/msumari",
     key_tech: ["React", "Firebase","Tailwind"],
     image_path: "/image/toio.png",
