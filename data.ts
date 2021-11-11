@@ -86,7 +86,7 @@ export const language: Iskill[] = [
   },
   {
     name: "Python",
-    level: "70%",
+    level: "80%",
     Icon: FaPython,
   },
   {
@@ -96,7 +96,7 @@ export const language: Iskill[] = [
   },
   {
     name: "Flask",
-    level: "30%",
+    level: "20%",
     Icon: SiFlask,
   },
   {
@@ -114,18 +114,13 @@ export const tools: Iskill[] = [
   },
   {
     name: "MongoDB",
-    level: "50%",
+    level: "60%",
     Icon: SiMongodb,
   },
   {
     name: "Docker",
-    level: "20%",
-    Icon: FaDocker,
-  },
-  {
-    name: "Kubernetes",
     level: "10%",
-    Icon: SiKubernetes,
+    Icon: FaDocker,
   },
   {
     name: "GCP",
@@ -135,6 +130,16 @@ export const tools: Iskill[] = [
 ];
 
 export const project: Iproject[] = [
+  {
+    name: "Lume",
+    description:
+      "This is a movie details and trailer streaming web app that is focused on providing relevant data on movie search journey of people.",
+    category: ["React", "Firebase","Node","API","MongoDB"],
+    deploy_url: "https://lume.msumari.com",
+    github_url: "https://github.com/msumari/",
+    key_tech: ["React", "Firebase","MongoDB","Express","Tailwind","Redux"],
+    image_path: "/image/lume_shot.png",
+  },
   {
     name: "E-pharmacy",
     description:
@@ -173,7 +178,7 @@ export const project: Iproject[] = [
     deploy_url: "https://tanga.netlify.app/",
     github_url: "https://github.com/msumari",
     key_tech: ["React", "Firebase","Tailwind"],
-    image_path: "https://firebasestorage.googleapis.com/v0/b/ecommerce-2050.appspot.com/o/toio.png?alt=media&token=bb70ec1b-e80e-4847-b92a-e6858290d05c",
+    image_path: "/image/toio.png",
   },
   {
     name: "Personal Portifolio",
