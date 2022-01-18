@@ -95,11 +95,6 @@ export const language: Iskill[] = [
     Icon: IoLogoNodejs,
   },
   {
-    name: "Flask",
-    level: "20%",
-    Icon: SiFlask,
-  },
-  {
     name: "Tailwind",
     level: "80%",
     Icon: SiTailwindcss,
@@ -140,15 +135,15 @@ export const project: Iproject[] = [
     key_tech: ["React", "Firebase","MongoDB","Express","Tailwind","Redux"],
     image_path: "/image/lume_shot.png",
   },
-  {
-    name: "E-pharmacy",
+   {
+    name: "Assure",
     description:
-      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
-    category: ["React", "Firebase"],
-    deploy_url: "https://e-phamarcy.netlify.app/",
-    github_url: "https://github.com/msumari/E-commerce",
-    key_tech: ["React", "Firebase", "Context API"],
-    image_path: "/image/e-commerce.JPG",
+      "This is a professional business website that increase leads to the robotech labs services.",
+    category: ["React"],
+    deploy_url: "https://assureconsults.netlify.app/",
+    github_url: "https://github.com/msumari/",
+    key_tech: ["React", "Firebase","Tailwind","Redux"],
+    image_path: "/image/IMG-20210707-WA0000.jpg",
   },
   {
     name: "Robotech",
@@ -160,6 +155,17 @@ export const project: Iproject[] = [
     key_tech: ["React", "Firebase", "Context API"],
     image_path: "/image/robotech.JPG",
   },
+  {
+    name: "E-pharmacy",
+    description:
+      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
+    category: ["React", "Firebase"],
+    deploy_url: "https://e-phamarcy.netlify.app/",
+    github_url: "https://github.com/msumari/E-commerce",
+    key_tech: ["React", "Firebase", "Context API"],
+    image_path: "/image/e-commerce.JPG",
+  },
+  
   {
     name: "Reminder App",
     description:
@@ -180,14 +186,5 @@ export const project: Iproject[] = [
     key_tech: ["React", "Firebase","Tailwind"],
     image_path: "/image/toio.png",
   },
-  {
-    name: "Personal Portifolio",
-    description:
-      "This is a personal portifolio website that highlights my skills.",
-    category: ["React"],
-    deploy_url: "https://msumari.netlify.app/",
-    github_url: "https://github.com/msumari",
-    key_tech: ["React"],
-    image_path: "/image/web.JPG",
-  },
+  
 ];
