@@ -155,27 +155,7 @@ export const project: Iproject[] = [
     key_tech: ["React", "Firebase", "Context API"],
     image_path: "/image/robotech.JPG",
   },
-  {
-    name: "E-pharmacy",
-    description:
-      "This is a e-commerce build that focused on the medical phamarcy products to final consumers directly.",
-    category: ["React", "Firebase"],
-    deploy_url: "https://e-phamarcy.netlify.app/",
-    github_url: "https://github.com/msumari/E-commerce",
-    key_tech: ["React", "Firebase", "Context API"],
-    image_path: "/image/e-commerce.JPG",
-  },
-  
-  {
-    name: "Reminder App",
-    description:
-      "This is a reminder web application used to increase customer retention at Royal oven by notifying user of there near occassions and lead them to by pastries for the occasion.",
-    category: ["React", "Firebase", "API"],
-    deploy_url: "https://royaloven.netlify.app/",
-    github_url: "https://github.com/msumari",
-    key_tech: ["React", "Firebase", "SMS_API"],
-    image_path: "/image/royal.JPG",
-  },
+ 
    {
     name: "Toio",
     description:
