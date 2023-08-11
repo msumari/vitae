@@ -11,6 +11,7 @@ import {
   SiNextDotJs,
   SiTailwindcss,
   SiTypescript,
+  SiAmazonaws
 } from "react-icons/si";
 import {
   IoLogoCss3,
@@ -56,37 +57,37 @@ export const service: Iservice[] = [
 export const language: Iskill[] = [
   {
     name: "Javascript",
-    level: "70%",
+    level: "80%",
     Icon: IoLogoJavascript,
   },
   {
     name: "HTML",
-    level: "80%",
+    level: "90%",
     Icon: AiFillHtml5,
   },
   {
     name: "Css",
-    level: "80%",
+    level: "70%",
     Icon: IoLogoCss3,
   },
   {
     name: "React",
-    level: "80%",
+    level: "70%",
     Icon: FaReact,
   },
   {
     name: "TypeScript",
-    level: "50%",
+    level: "40%",
     Icon: SiTypescript,
   },
   {
     name: "Next js",
-    level: "60%",
+    level: "50%",
     Icon: SiNextDotJs,
   },
   {
     name: "Python",
-    level: "80%",
+    level: "60%",
     Icon: FaPython,
   },
   {
@@ -96,7 +97,7 @@ export const language: Iskill[] = [
   },
   {
     name: "Tailwind",
-    level: "80%",
+    level: "70%",
     Icon: SiTailwindcss,
   },
 ];
@@ -113,9 +114,9 @@ export const tools: Iskill[] = [
     Icon: SiMongodb,
   },
   {
-    name: "Docker",
-    level: "10%",
-    Icon: FaDocker,
+    name: "AWS",
+    level: "70%",
+    Icon: SiAmazonaws,
   },
   {
     name: "GCP",
