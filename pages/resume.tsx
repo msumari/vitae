@@ -29,7 +29,14 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Software Developer</h5>
-            <p className="font-semibold">Robotech Labs(2019-on)</p>
+            <p className="font-semibold">Amazon Web Service(2022-on)</p>
+            <p className="my-3">
+              Architechure, development and testing of various internal software products for Solution architects.
+            </p>
+          </div>
+          <div>
+            <h5 className="my-2 text-xl font-bold">Software Developer</h5>
+            <p className="font-semibold">Robotech Labs(2019-2022)</p>
             <p className="my-3">
               Architechure, development and testing of various software products
             </p>
